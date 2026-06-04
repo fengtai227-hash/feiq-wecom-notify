@@ -1,0 +1,36 @@
+# Build outputs
+Release/
+Debug/
+*.tlog/
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.tlb
+*.lastbuildstate
+*.log
+*.res
+*.sbr
+*.bsc
+*.aps
+*.suo
+*.user
+*.ncb
+*.opt
+*.plg
+
+# VS2022
+.vs/
+*.vcxproj.filters
+*.vcxproj.user
+
+# Temporary files
+nul
+*.tmp
+%TEMP%/
+
+# OS files
+Thumbs.db
+.DS_Store
+Desktop.ini

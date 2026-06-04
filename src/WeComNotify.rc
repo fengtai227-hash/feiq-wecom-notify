@@ -1,0 +1,20 @@
+// WeComNotify.rc -- Dialog resource for WeComNotify plugin
+//
+#pragma code_page(65001)  // UTF-8 encoding for Chinese characters
+#include <windows.h>
+#include "resource.h"
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+
+IDD_WECOM_CONFIG DIALOGEX 0, 0, 320, 140
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "企业微信消息转发设置"
+FONT 9, "Microsoft YaHei UI", 400, 0, 0x1
+BEGIN
+    LTEXT           "Webhook URL:", IDC_STATIC_URL, 12, 12, 296, 10
+    EDITTEXT        IDC_WEBHOOK_URL, 12, 24, 296, 14, ES_AUTOHSCROLL
+    LTEXT           "@提醒用户ID (逗号分隔，留空不@):", IDC_STATIC_MENTION, 12, 48, 296, 10
+    EDITTEXT        IDC_MENTION_IDS, 12, 60, 296, 14, ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定", IDOK, 164, 88, 60, 20
+    PUSHBUTTON      "取消", IDCANCEL, 232, 88, 60, 20
+END

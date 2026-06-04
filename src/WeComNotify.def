@@ -1,0 +1,13 @@
+; WeComNotify.def : Declares the module parameters for the DLL.
+; 飞秋企业微信消息转发插件 - DLL导出定义
+
+LIBRARY      "WeComNotify"
+DESCRIPTION  'FeiQ WeCom Notify Plugin - Forward messages to WeCom Webhook'
+
+EXPORTS
+    ; Explicit exports can go here
+    DllCanUnloadNow     PRIVATE
+    DllGetClassObject   PRIVATE
+    DllRegisterServer   PRIVATE
+    DllUnregisterServer PRIVATE
+    DllGetPluginClsids  PRIVATE

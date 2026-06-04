@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeComNotify", "WeComNotify.vcxproj", "{F1E2D3C4-B5A6-9780-1234-56789ABCDE01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E2D3C4-B5A6-9780-1234-56789ABCDE01}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F1E2D3C4-B5A6-9780-1234-56789ABCDE01}.Debug|Win32.Build.0 = Debug|Win32
+		{F1E2D3C4-B5A6-9780-1234-56789ABCDE01}.Release|Win32.ActiveCfg = Release|Win32
+		{F1E2D3C4-B5A6-9780-1234-56789ABCDE01}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
