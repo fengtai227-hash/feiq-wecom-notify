@@ -34,7 +34,7 @@
 ### Installation
 
 1. **Download** the latest `WeComNotify.dll` from [Releases](../../releases)
-2. Copy `WeComNotify.dll` to FeiQ's `Plugins\` directory (e.g., `C:\Program Files (x86)\飞秋2013\Plugins\`)
+2. Copy `WeComNotify.dll` to FeiQ's `Plugins\` working directory
 3. Restart FeiQ
 4. Right-click the FeiQ tray icon → check "转发到企业微信 [已开启]"
 5. Right-click again → "配置企业微信..." to set your Webhook URL

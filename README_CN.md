@@ -39,7 +39,7 @@
 ### 第二步：安装插件
 
 1. 从 [Release 页面](https://github.com/fengtai227-hash/feiq-wecom-notify/releases) 下载最新版 `WeComNotify.dll`
-2. 将 DLL 复制到飞秋安装目录下的 `Plugins\` 文件夹中
+2. 将 DLL 复制到飞秋工作目录下的 `Plugins\` 文件夹中
 3. 重启飞秋
 
 ### 第三步：配置插件
