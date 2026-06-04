@@ -6,6 +6,7 @@
 
 **飞秋(FeiQ 2013)企业微信消息转发插件** — 将局域网飞秋收到的消息实时转发到企业微信群机器人，让你离开电脑时不错过任何消息。
 
+> 📖 **纯中文文档请参阅 [README_CN.md](README_CN.md)** — 飞秋用户多为中文用户，建议优先阅读中文版。
 > FeiQ (飞秋) is a popular LAN instant messaging software in China. This plugin forwards FeiQ messages to WeCom (企业微信) group chat bots in real time.
 
 ---
