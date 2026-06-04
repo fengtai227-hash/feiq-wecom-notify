@@ -177,7 +177,7 @@ build-release.bat
 
 ## AI 生成声明
 
-本插件由 **WorkBuddy AI**（基于 Claude）辅助生成，并经过多次迭代优化和实际测试验证。
+本插件由 **WorkBuddy AI** 辅助生成，并经过多次迭代优化和实际测试验证。
 
 ### 测试状态
 
